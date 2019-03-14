@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Dxcvocxcvxcvxcvument */
+body {
+	background:#FFFFFF;
+    color: #676767;
+    font: 12px/20px Arial,Tahoma,Helvetica,FreeSans,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    width: 250px;
+	background: none #F0F2F7;
+	border:1px solid #EF80AD;
+	height: 416px;
+	position:absolute;
+	left:50%;
+	top:47%;
+	margin: -208px 0px 0px -125px;
+}
+
+#login_top img {
+	width:250px;
+}
+
+.login .row label {
+    display: inline;
+    float: none;
+    font-size: 14px;
+}
+
+.login h2 {
+	color: #333333;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 0px 5px;
+	text-align:left;
+}
+#login-form .username label {
+    padding-right: 45px;
+}
+
+.right .login {
+	padding:12px 20px 30px;
+	border-bottom: 1px solid #EF80AD;
+}
+
+
+#login-form .buttons input {
+    border: 0 none;
+    cursor: pointer;
+    height: 26px;
+    text-indent: -999px;
+    width: 72px;
+}
+
+.copyright {
+	height:43px;
+}
+
+.right input, .right button, .right textarea, .right select, .right optgroup, .right option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.login input[type="text"], .login input[type="password"] {
+    border: 1px solid #EF80AD;
+    margin-top: 5px;
+    padding: 2px;
+	height:20px;
+    width: 200px;
+}
+
+.row-username label, .row label {
+	color: #000000;
+	font-size: 14px;
+}
+
+.row {
+    clear: left;
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.row-rememberMe {
+	color:#333333;
+}
+
+.copyright p a{
+	color: #009ADA;
+    font-size: 13px;
+    font-weight: bold;
+	text-decoration:underline;
+}
+
+.copyright p a:hover {
+	color: #0066FF;
+}
+
+
+.row-buttons input {
+	font-size: 13px;
+	color: #000000;
+	margin: 6px 0px;
+}
+
+.login .row label {
+    display: inline;
+    float: none;
+    font-size: 14px;
+}
+
+.forget {
+	float:left
+}
+
+.forget a {
+    color: #009ADA;
+    font-size: 13px;
+    font-weight: bold;
+	text-decoration:underline;
+	margin-right: 10px;
+}
+.forget a:hover {
+	color: #0539fc;
+}
+
+.forget p {
+	margin-left:0px;
+}
+
+.forgetpass {
+	min-height:350px
+}
